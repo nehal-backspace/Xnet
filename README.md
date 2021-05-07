@@ -1,2 +1,4 @@
 # Xnet
-BlockChain Game
+## Testnet - Rinkeby
+BlockChain Based Simple Storage Form
+
