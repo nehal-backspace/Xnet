@@ -22,9 +22,9 @@ module.exports = {
     },
 
     //For making backend server from webpack itself
-    devServer: {
-        contentBase: path.join(__dirname, 'public'),
-        compress: true,
-        port: 8080
-    },
+//     devServer: {
+//         contentBase: path.join(__dirname, 'public'),
+//         compress: true,
+//         port: 8080
+//     },
 };
