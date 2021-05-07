@@ -11,7 +11,7 @@ module.exports = {
     mode: 'development',
 
     // Path to your entry point. From this file Webpack will begin its work
-    entry: 'client/index.js',
+    entry: './client/index.js',
 
     // Path and filename of your result bundle.
     // Webpack will bundle all JavaScript into this file
@@ -22,9 +22,9 @@ module.exports = {
     },
 
     //For making backend server from webpack itself
-//     devServer: {
-//         contentBase: path.join(__dirname, 'public'),
-//         compress: true,
-//         port: 8080
-//     },
+    devServer: {
+        contentBase: path.join(__dirname, 'public'),
+        compress: true,
+        port: 8080
+    },
 };
